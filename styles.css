@@ -1,0 +1,254 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 60px 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#hero {
+  background-color: #f1f1f1;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+h2 {
+  color: #333;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.cta-btn {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.cta-btn:hover {
+  background-color: #45a049;
+}
+
+#features {
+  background-color: #f9f9f9;
+}
+
+#pricing {
+  background-color: #e5f0e8;
+}
+
+#contact {
+  background-color: #f1f1f1;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+ul {
+  list-style-type: disc;
+  text-align: left;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Additional Styles */
+
+#hero h2 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#hero p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.cta-btn {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.cta-btn:hover {
+  background-color: #45a049;
+}
+
+#features {
+  background-color: #f9f9f9;
+}
+
+#features h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+#features ul {
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+#features ul li {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+#pricing {
+  background-color: #e5f0e8;
+  padding: 80px 0;
+}
+
+#pricing h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+#pricing p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+#contact {
+  background-color: #f1f1f1;
+  padding: 80px 0;
+}
+
+#contact h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+#contact form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#contact label {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#contact textarea {
+  height: 150px;
+}
+
+footer p {
+  font-size: 14px;
+  color: #ccc;
+  margin: 0;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+input[type="submit"],
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+input[type="submit"]:hover,
+button:hover {
+  background-color: #45a049;
+}
